@@ -18,10 +18,3 @@ steps:
       tags: |
         $(Build.BuildId)
         latest
-
-  - task: AzureWebAppContainer@1
-    displayName: 'Deploy to Azure Web App'
-    inputs:
-      azureSubscription: 'Free Trial'  # Replace with your Azure subscription connection name
-      appName: 'jeevaweb'  # Replace with the name of your Azure Web App
-      imageName: 'jeevaconreg.azurecr.io/azureapp:$(Build.BuildId)'
