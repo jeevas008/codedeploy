@@ -11,7 +11,7 @@ steps:
     displayName: 'Build and Push Docker Image'
     inputs:
       containerRegistry: 'jeevaconreg'  # Replace with your Azure Container Registry connection name
-      repository: 'codedeploy'
+      repository: 'azureapp'
       command: 'buildAndPush'
       Dockerfile: '.'
       buildContext: '$(Build.SourcesDirectory)'
