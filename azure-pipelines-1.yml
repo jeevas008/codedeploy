@@ -24,4 +24,4 @@ steps:
     inputs:
       azureSubscription: 'Free Trial'  # Replace with your Azure subscription connection name
       appName: 'jeevaweb'  # Replace with the name of your Azure Web App
-      imageName: 'codedeploy:$(Build.BuildId)'
+      imageName: 'jeevaconreg.azurecr.io/azureapp:$(Build.BuildId)'
