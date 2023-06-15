@@ -18,7 +18,7 @@ steps:
       tags: |
         $(Build.BuildId)
         latest
-  - task: AzureWebAppContainer@1
+- task: AzureWebAppContainer@1
     displayName: 'Deploy to Azure Web App'
     inputs:
       azureSubscription: 'Free Trial'  # Replace with your Azure subscription connection name
