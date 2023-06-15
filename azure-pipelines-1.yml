@@ -10,7 +10,7 @@ steps:
   - task: Docker@2
     displayName: 'Build Docker image'
     inputs:
-      containerRegistry: 'jeevaconreg.azurecr.io'  # Replace with your Azure Container Registry connection name
+      containerRegistry: 'jeevaconreg'  # Replace with your Azure Container Registry connection name
       repository: 'codedeploy'
       command: 'build'
       Dockerfile: '.'
