@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: kube-apache
-        image: kubeorg.azurecr.io/jeevas008/codedeploy:#{Build.BuildId}#
+        image: kubeorg.azurecr.io/jeevas008/codedeploy:latest
         ports:
         - containerPort: 5000
 # service type loadbalancer       
