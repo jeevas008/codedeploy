@@ -25,7 +25,7 @@ metadata:
   name: kube-deployment-svc
 spec:
   selector:
-    app: apache-app-svc
+    app: apache-app
   ports:
     - protocol: TCP
       port: 80
