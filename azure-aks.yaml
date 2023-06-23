@@ -4,6 +4,7 @@ metadata:
   name: kube-deployment
 spec:
   replicas: 1
+  serviceAccountName: kubesa
   selector:
     matchLabels:
       app: apache-app
@@ -24,6 +25,7 @@ kind: Service
 metadata:
   name: kube-deployment-svc
 spec:
+  serviceAccountName: kubesa
   selector:
     app: apache-app-svc
   ports:
