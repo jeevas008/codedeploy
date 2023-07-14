@@ -34,4 +34,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:latest
+        tags: 387232581030.dkr.ecr.us-east-1.amazonaws.com/jeeva-repository:latest
