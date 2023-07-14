@@ -5,7 +5,7 @@ on:
       - main 
 
 env:
-  ECR_REGISTRY: jeeva-repository
+  ECR_REGISTRY: 387232581030.dkr.ecr.us-east-1.amazonaws.com/jeeva-repository
   ECR_REPOSITORY: jeeva-repository
   AWS_REGION: us-east-1
 
